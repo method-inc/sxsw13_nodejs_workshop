@@ -1,0 +1,7 @@
+My history with Node…..
+
+I was first introduced to Node.js in one of Skookum’s weekly tech talks by a coworker, Hunter, who had just began playing with it. This was on version 0.2.*. At first, this was a difficult concept to grasp as all of my Javascript experience had generally come with a DOM attached and usually aided by JQuery. It was difficult to see what I would do with this new construct and why I should use it.
+
+A couple of weeks later, Hunter had just finished participating in the first Node Knockout. I was busy that weekend, and didn’t know what I had missed at the time. His work in NKO had prompted him to build a simple multiplayer game demo to show off to the company again in another tech talk. The demo consisted of a small character in a 2D environment that you could move around. The hook was that every user that connected to the app would get their own character and you could see all the characters moving and flying around in real time. The code he showed that it took to accomplish this was surprisingly simple and I was hooked. I pulled down the repo and starting playing.
+
+Soon after, we convinced the company to allow Hunter and I to build a more standard web app with this new technology. We were quickly becoming convinced that this new stack had amazing potential and that Skookum should be at the forefront of utilizing it when possible.
