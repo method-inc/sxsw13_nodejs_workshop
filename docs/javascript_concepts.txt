@@ -14,7 +14,7 @@ In Javascript, a variable's scope is always either local or global. If the varia
 In Javascripts, all arguments to a function are passed “by value” technically. That value, however, may be a reference to an object or the value of the variable. The simplest way to think about it that will generally work for you is to consider if the item is an object or primitive that you are passing in. A primitive, such as a string or integer, will be passed the actual value. A function or object will be passed the reference. Reassigning that variable does not change the referenced object, it simply assigns a new reference to the variable.
 
 
-*****closures *****
+***** closures *****
 A closure is when a function closes around it’s current scope and that scope is passed along with the function object. This accomplished by returning an inner function. That inner function retains all scope it had including any variables that were declared in it’s parent function.
 
 
@@ -36,10 +36,6 @@ http://howtonode.org/understanding-process-next-tick
 As mentioned before, this is simply the design pattern of passing in a function to another function (usually as the last argument) with the intent of that function being called when the called function is finished with it’s task. Similar functionality can be handled with promises, and some people prefer to work with promises (they were a larger part of Node in early versions, but Node has transitioned completely to callback and event patterns).
 
 
-***** popular helper libraries *****
-underscore is a great library for general Javascript use. async.js is a library specifically meant for handling asyncronous workflows.
-
-
 ***** ECMAScript Latest *****
 Node uses the latest build of V8 which has all of the newest features of ECMAScript 5.1 and even some limited features from ES6 when using the --harmony flag.
 
@@ -51,3 +47,6 @@ http://dailyjs.com/2012/10/15/preparing-for-esnext/
 
 ***** native JSON *****
 Node has JSON handling methods built in: stringify, parse. It can also load in a JSON file using the require() syntax. The file will be loaded as a Javascript object parsed from the JSON string.
+
+***** popular helper libraries *****
+underscore is a great library for general Javascript use. async.js is a library specifically meant for handling asyncronous workflows. many

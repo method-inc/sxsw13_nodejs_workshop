@@ -35,6 +35,7 @@ Schedule
 
   * Node Concepts (60 minutes)
     # http://nodejs.org/about/
+    # Why Node?
     # event loop
       * importance of non-blocking
       * IO concepts
@@ -49,8 +50,6 @@ Schedule
       * shared memory
         * benefits
         * gotchas
-    # using code on both client and server
-      * testing for presence of export
     # Node Modules
       * require
       * singleton vs factory module export
