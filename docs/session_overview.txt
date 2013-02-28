@@ -25,6 +25,7 @@ Schedule
     # scope
     # by reference or value?
     # closures
+    # classes
     # inheritance
     # anonomous functions
     # async vs sync
@@ -51,6 +52,7 @@ Schedule
         * benefits
         * gotchas
     # Node Modules
+      * package.json
       * require
       * singleton vs factory module export
       * NPM

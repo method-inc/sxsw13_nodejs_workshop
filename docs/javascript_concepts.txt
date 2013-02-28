@@ -7,7 +7,7 @@ Unlike many languages, Functions are first-class objects and can be created, sto
 
 
 ***** scope *****
-In Javascript, a variable's scope is always either local or global. If the variable is not properly declared with the "var" keyword, it will be given global scope. Otherwise, it is given local function scope relative to the current execution. Block scope does not exist. If a variable is declared inside a block statement, the declaration will be hoisted to the top of the nearest function. Variables that are not properly declared with the keyword “var” are what are generally referred to as global leaks. Using strict mode will throw an exception in these instances.
+A new scope is created anytime a function is called. A variable's scope will either be local to that function or global. If the variable is not properly declared with the "var" keyword, it will be given global scope. Otherwise, it is given local function scope relative to the current execution. Block scope does not exist. If a variable is declared inside a block statement, the declaration will be hoisted to the top of the nearest function. Variables that are not properly declared with the keyword “var” are what are generally referred to as global leaks. Using strict mode will throw an exception in these instances.
 
 
 ***** by reference or value? *****
@@ -16,6 +16,10 @@ In Javascripts, all arguments to a function are passed “by value” technicall
 
 ***** closures *****
 A closure is when a function closes around it’s current scope and that scope is passed along with the function object. This accomplished by returning an inner function. That inner function retains all scope it had including any variables that were declared in it’s parent function.
+
+
+***** Classes *****
+There is no class keyword in Javascript. Instead, you simply defined a function normally would. To add methods to the class, you simply add them to the objects prototype.
 
 
 ***** Inheritance *****
