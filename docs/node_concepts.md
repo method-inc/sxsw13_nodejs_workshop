@@ -1,8 +1,27 @@
 # Node Concepts
 
 ### Why node?
-ldflaslfalsdh
+
 
 
 ### Event Loop
-dshfkagjhsdfklahslh
+
+
+
+
+### Callback pattern standards
+
+
+
+
+### Promises
+
+
+
+
+### Single process
+
+
+
+
+### Node Modules

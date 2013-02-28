@@ -6,10 +6,8 @@
   * Session overview (5 minutes)
     * David intro
     * Jim intro
+    * Link Github Examples Repo
     * session overview
-      * Link Github Examples Repo
-      * My History
-      * Node.js now.
       * Javascript Concepts
       * Node Concepts
       * Basic Node Apps
