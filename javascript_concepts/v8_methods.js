@@ -3,8 +3,8 @@
  * without iterating through and using hasOwnProperty
  */
 var book = {
-  name: "The Hitchhiker's Guide to the Galaxy",
-  author: "Douglas Adams",
+  name     : "The Hitchhiker's Guide to the Galaxy",
+  author   : "Douglas Adams",
   num_pages: 224
 };
 

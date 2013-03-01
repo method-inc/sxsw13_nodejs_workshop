@@ -16,9 +16,9 @@ function Person(options) {
   // the use of guards makes sure the property is initialized as the correct type if
   // that particular option was not passed in
 
-  this.name = options.name || "Jon Doe";
+  this.name       = options.name || "Jon Doe";
   this.walk_speed = options.walk_speed || 5;
-  this.run_speed = options.run_speed || 12;
+  this.run_speed  = options.run_speed || 12;
 
 
 }
@@ -45,9 +45,9 @@ Person.prototype = {
 
 
 var John = new Person({
-  name: "John Doe",
+  name      : "John Doe",
   walk_speed: 6,
-  run_speed: 11
+  run_speed : 11
 });
 
 

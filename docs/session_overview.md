@@ -4,9 +4,9 @@
 
   * 30 second attention grabber, Flashy demo?
   * Session overview (5 minutes)
-    * David intro
     * Jim intro
-    * Link Github Examples Repo
+    * David intro
+    * show link to examples repo on github
     * session overview
       * Javascript Concepts
       * Node Concepts
@@ -29,7 +29,7 @@
   * closures
   * classes
   * inheritance
-  * anonomous functions
+  * anonymous functions
   * async vs sync
   * callback pattern
   * ECMAScript Latest
@@ -38,23 +38,29 @@
 
 ### Node Concepts (60 minutes)
   * [Why Node?](http://nodejs.org/about/)
+  * single process and memory state
+    * global and process
+    * benefits
+    * gotchas
   * event loop
     * importance of non-blocking
     * IO concepts
       * db call in most languages
       * db call in node with callback
     * exits when no processes left
+  * handling errors and stack traces
+    * uncaught exceptions
+    * unreadable stack trace from async function uncaught exception
+    * uncatchable errors from async functions
   * callback pattern standards
     * limit pyramid depth
     * err, result callback args
-  * promises
-  * single process
-    * shared memory
-      * benefits
-      * gotchas
+  * events and promises
   * Node Modules
     * package.json
     * require
+      * absolute and relative
+      * module and exports
     * singleton vs factory module export
     * NPM
     * exporting binary for command line usage
@@ -65,7 +71,7 @@
   * [restful apps](https://github.com/skookum/restful)
   * [express app](http://expressjs.com/)
 
-### Using Node in a complexapp (30 minutes)
+### Using Node in a complex app (30 minutes)
   * common DB choices
     * MongoDB
     * Redis
@@ -96,7 +102,7 @@
 
 
 ### Demo App Ideas
-  * basic chatroom
+  * basic chat room
     * socket.io
   * shared app
     * drawing?
