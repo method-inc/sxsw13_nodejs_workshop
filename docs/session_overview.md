@@ -1,6 +1,6 @@
 ## Schedule
 
-### Intro
+## Intro
 
   * 30 second attention grabber, Flashy demo?
   * Session overview (5 minutes)
@@ -22,7 +22,7 @@
     * how many know any Node
     * how many have built something meaningful in Node
 
-### Javascript Concepts (30 minutes)
+## Javascript Concepts (30 minutes)
   * functions, object
   * scope
   * by reference or value?
@@ -36,7 +36,7 @@
   * native JSON
   * popular helper libraries
 
-### Node Concepts (60 minutes)
+## Node Concepts (60 minutes)
   * [Why Node?](http://nodejs.org/about/)
   * single process and memory state
     * global and process
@@ -66,12 +66,12 @@
     * exporting binary for command line usage
     * which modules should I use?
 
-### Node in Basic Apps (20 minutes)
+## Node in Basic Apps (20 minutes)
   * cli apps
   * [restful apps](https://github.com/skookum/restful)
   * [express app](http://expressjs.com/)
 
-### Using Node in a complex app (30 minutes)
+## Using Node in a complex app (30 minutes)
   * common DB choices
     * MongoDB
     * Redis
@@ -89,7 +89,7 @@
 
 
 
-### Misc Content points to possibly add
+## Misc Content points to possibly add
   * unit testing
   * effective node app are many small specialized apps, not a single large app
   * many small requests vs less large ones
@@ -101,7 +101,7 @@
     * websites, apps, api’s, cli tools, etc
 
 
-### Demo App Ideas
+## Demo App Ideas
   * basic chat room
     * socket.io
   * shared app
