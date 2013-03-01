@@ -30,7 +30,7 @@ function getAuthor(author_id, callback) {
 
 
 /**
- * This function represents a middleware of controller function after a request has been made
+ * This function represents a middleware or controller function after a request has been made
  *
  * Notice how commenting out the line that handles the error gracefully causes an uncaught
  * exception and crashes the server.
