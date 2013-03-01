@@ -34,7 +34,6 @@
   * callback pattern
   * ECMAScript Latest
   * native JSON
-  * popular helper libraries
 
 ## Node Concepts (60 minutes)
   * [Why Node?](http://nodejs.org/about/)

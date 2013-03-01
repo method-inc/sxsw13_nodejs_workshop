@@ -55,6 +55,3 @@ Node uses the latest build of V8 which has all of the newest features of ECMAScr
 
 ## native JSON
 Node has JSON handling methods built in: stringify, parse. It can also load in a JSON file using the require() syntax. The file will be loaded as a Javascript object parsed from the JSON string.
-
-## popular helper libraries
-underscore is a great library for general Javascript use. async.js is a library specifically meant for handling asyncronous workflows. many

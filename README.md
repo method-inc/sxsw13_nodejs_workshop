@@ -1,10 +1,16 @@
-SXSW 2013 Node.js Workshop
-==================
+# SXSW 2013 Node.js Workshop
 
 Example files and docs to be used in conjunction with the Node.js workshop at SXSW 2013.
 
 http://schedule.sxsw.com/2013/events/event_IAP15740
 
+==================
+
+## Overview and Misc Content
+
+  * [Session Overview](docs/session_overview.md)
+  * [Keynote Presentation](docs/presentation.key)
+  * [Ryan Dahl's Early Presentation Introducing Node.js](docs/jsconf-2009.pdf)
 
 ## Major Content Areas
 
@@ -12,3 +18,19 @@ http://schedule.sxsw.com/2013/events/event_IAP15740
 
   * [Written Content](docs/javascript_concepts.md)
   * [examples](javascript_concepts)
+
+### Node Concepts
+
+  * [Written Content](docs/node_concepts.md)
+  * [examples](node_concepts)
+
+### Basic Node Apps
+
+  * [Written Content](docs/node_basic_apps.md)
+  * [examples](node_basic_apps)
+
+
+### Complex Node Apps and Deployments
+
+  * [Written Content](docs/node_complex_apps.md)
+  * [examples](node_complex_apps)
