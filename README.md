@@ -6,6 +6,9 @@ Example files and docs to be used in conjunction with the Node.js workshop at SX
 http://schedule.sxsw.com/2013/events/event_IAP15740
 
 
-### Major Content Areas
+## Major Content Areas
 
-[Javascript Concepts](docs/javascript_concepts.md) [examples](javascript_concepts)
+### Javascript Concepts
+
+  * [Written Content](docs/javascript_concepts.md)
+  * [examples](javascript_concepts)
