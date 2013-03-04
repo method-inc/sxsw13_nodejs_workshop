@@ -21,6 +21,7 @@
     * how many know JS (more than JQuery?)
     * how many know any Node
     * how many have built something meaningful in Node
+    * does anyone need help installing node or npm?
 
 ## Javascript Concepts (30 minutes)
   * functions, object
@@ -55,6 +56,7 @@
     * limit pyramid depth
     * err, result callback args
   * events and promises
+  * streams
   * Node Modules
     * package.json
     * require

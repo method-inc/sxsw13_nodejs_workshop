@@ -57,6 +57,11 @@ Another way to handle errors is with events and promises. In early versions, Nod
 
 
 
+## Streams
+These can be used to setup streams of data in or out. For example, write streams could be used for things like continuous writes to the local file system for something like logging.  A read stream could be used for downloading or reading in a large file, especially if you are able to process the file in chunks as they are received instead of waiting for full file to read in. A nice use case is setting up custom reporting for file upload percentages. In the past, you've generally had to resort to something like Flash for this. However, You can track the data coming in and compare it to the expected size of the file to easily report back the percentage uploaded so far for the user.
+
+
+
 ## Node Modules
 Node modules are key to Node's usefulness as many different types of apps and servers. All of Node's native methods are handled as modules, such as the net and fs modules which give the app access to many methods contained within them. For those familiar with Rails, Node's modules are similar to gems in Ruby. Modules are really a requirement for a server application written in Javascript which would have an extremely cluttered global namespace if libraries were handled like client side Javascript where each library offered a global accessor variable (think JQuery or $).
 

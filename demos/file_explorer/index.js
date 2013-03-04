@@ -23,7 +23,9 @@ fs.readdir(process.cwd(), function(err, files) {
     var filename = files[i];
         output_string = "    "+(i+1)+" : "+filename;
 
-    // get stat of item
+    // get stat of item.
+    // This could actually be done fine in this instance with the
+    // sync method, but using the async method is good practice
     fs.stat(__dirname + '/' + filename, function(err, stat) {
 
       // store stat
