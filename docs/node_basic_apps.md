@@ -16,7 +16,7 @@ Node has become my go-to language for writing scripts now as Javascript is just 
 
 
 ### Express Apps
-
+Express.js is one of the main frameworks in use today for building web apps in Node and was built on top of connect. Express handles the http requests that come into node as well as all of the framework that needs to accompany a web app like routing and html views.
 
 
 
