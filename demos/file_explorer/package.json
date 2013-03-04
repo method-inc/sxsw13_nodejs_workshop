@@ -1,0 +1,9 @@
+{
+  "name":"file_explorer",
+  "description":"basic CLI demo app inspired by demo in Smashing Node.js by Guillermo Rauch",
+  "version":"0.0.1",
+  "author":"Jim Snodgrass <jim@skookum.com>",
+  "dependencies": {
+    "colors":"latest"
+  }
+}
