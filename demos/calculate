@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var units = process.argv.slice(2),
+    expression = units.join("");
+
+// output eval of expression calculation
+// we would want to escape this string as necessary
+// in a live environment because of the use of eval
+console.log(eval(expression));
+
