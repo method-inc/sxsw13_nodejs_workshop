@@ -69,8 +69,7 @@
 
 ## Node in Basic Apps (20 minutes)
   * cli apps
-  * [restful apps](https://github.com/skookum/restful)
-  * [express app](http://expressjs.com/)
+  * [express apps](http://expressjs.com/)
 
 ## Using Node in a complex app (30 minutes)
   * common DB choices

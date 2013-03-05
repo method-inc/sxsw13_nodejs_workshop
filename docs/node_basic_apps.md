@@ -9,22 +9,18 @@ One interesting function node gives you is the ability to watch files. You can p
 
 Node has become my go-to language for writing scripts now as Javascript is just much more natural to write than something like a bash script. I'll also use Python at times, but I don't use Python as much so I'm not as comfortable in it.
 
-  CLI DEMO
-    * Calculator
-    * File Explorer
+CLI DEMO
+  * Calculator
+  * File Explorer
 
 
 
 ### Express Apps
-Express.js is one of the main frameworks in use today for building web apps in Node and was built on top of connect. Express handles the http requests that come into node as well as all of the framework that needs to accompany a web app like routing and html views.
+Express.js is one of the main frameworks in use today for building web apps in Node and was built on top of connect. Express handles the http requests that come into node as well as all of the framework that needs to accompany a web app like routing, html view templating, and serving static files.
 
 
 ``` bash
 npm install -g express
 express --sessions --css stylus myapp
-cd myapp && npm install && node app.js
+cd myapp && npm install && node app
 ```
-
-
-### Restfuljs Apps
-
