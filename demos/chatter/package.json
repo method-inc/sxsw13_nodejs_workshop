@@ -1,0 +1,9 @@
+{
+  "name":"chatter",
+  "description":"CLI server and client apps for Chatter",
+  "version":"0.0.1",
+  "author":"Jim Snodgrass <jim@skookum.com>",
+  "dependencies": {
+    "chatter":"latest"
+  }
+}
