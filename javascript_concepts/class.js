@@ -62,9 +62,6 @@ John.run();
 
 
 
-
-
-
 /**
  * Male class
  */

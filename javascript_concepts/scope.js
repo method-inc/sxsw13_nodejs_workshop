@@ -13,13 +13,15 @@ function tweak(){
   }
 }
 
-
-
-
-
-
 // common misuses
 
 for (var i = 0; i < things.length; i++) {
-  // do something with things[i]
+  var thing = things[i];
 };
+
+if (thing) {
+	var newThing = thing;
+}
+else {
+  var newThing = {};
+}
