@@ -20,7 +20,7 @@ setTimeout(function() {
  * to the 2000 ms we may be expecting here
  */
 setTimeout(function() {
-  // lotsOfProcessing();
+  lotsOfProcessing();
   console.log(Date.now() - start);
 }, 2000);
 
